@@ -1,0 +1,8 @@
+*{
+  margin: 0 auto;
+}
+
+.ReactCollapse--collapse {
+    transition: height 500ms;
+  }
+
