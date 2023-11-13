@@ -18,7 +18,7 @@ export default {
         extend: {
 
             backgroundImage: {
-                'fondo': "url('./components/imagenes/techlogos/fondo.svg')",
+                'fondoAzul': "url('./components/imagenes/techlogos/fondo.svg')",
                 'triangulos': "url('./components/imagenes/triangulos.svg')",
                 'fondoTrans': "url('./components/imagenes/fondoTrans.svg')"
 

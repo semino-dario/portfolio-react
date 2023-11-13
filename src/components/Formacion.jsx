@@ -15,9 +15,9 @@ export default function Formacion() {
     return (
 
         <div>
-            <img src={formacion} className="w-[150px] ml-[160px]" alt="" />
-            <Divider textAlign="left"> <TitleSection
-                title={'Formación'}
+            {/* <img src={formacion} className="w-[150px] ml-[160px]" alt="" /> */}
+            <Divider textAlign="left"> <img className="w-[150px]" src={formacion} alt="" /> <TitleSection
+                title={'Studies'}
             />
             </Divider>
             <br />

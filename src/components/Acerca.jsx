@@ -1,20 +1,23 @@
-import { Fab } from "@mui/material";
-
+import { Divider, Fab } from "@mui/material";
+import quien from './imagenes/quien.svg'
+import TitleSection from "./TitleSection";
+import DownloadCV from "./DownloadCV";
 
 export default function Acerca() {
     return (
-
-        <div className="flex flex-col">
-            <section className="container  w-4/5 rounded font-extralight bg-azulClaro mt-16  p-5 pb-9 shadow-lg md:w-[450px]">
+        <div className="flex flex-col mt-[30px] md:mt[-50px]">
+            <Divider ><TitleSection title='Who am I?' /> </Divider>
+            <section className="container flex flex-row justify-center gap-4 w-4/5 rounded font-extralight bg-azulClaro mt-16  p-5 pb-9 shadow-lg md:w-[650px]">
+                <img src={quien} className="w-[100px] hidden md:block" alt="" />
                 <p>
-
-                    I started getting interested in web development in late 2021. I took some courses and worked on personal projects, focusing on Frontend development using React. I also have basic knowledge of Backend technologies like Node.js, MongoDB, and SQL. You can find some examples of the projects I worked on here.
+                    My name is Darío Semino, and I'm from Argentina. I became interested in web development in late 2021. I took several courses and worked on personal and professional projects, with a primary focus on Frontend development using React. Additionally, I possess basic knowledge of Backend technologies such as Node.js, MongoDB, and SQL. You can find examples of the projects I've worked on here.
+                    <br /> <br />
+                    I also love literature, philosophy and learning languages. Besides Spanish, I'm fluent y English and French.
                 </p>
-
             </section>
             <br />
             <div className="">
-                <Fab variant='extended' >Descargar CV</Fab>
+                <DownloadCV />
             </div>
         </div>
 
