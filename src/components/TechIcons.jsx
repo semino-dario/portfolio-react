@@ -3,8 +3,7 @@ import jsIcons from './imagenes/techLogos/3.svg'
 import CSSIcons from './imagenes/techLogos/4.svg'
 import DBIcons from './imagenes/techLogos/5.svg'
 import HTMLIcons from './imagenes/techLogos/html.svg'
-import otrosLogos from './imagenes/techlogos/otrosLogos.svg'
-import TitleSection from './TitleSection';
+import otrosLogos from './imagenes/techLogos/otrosLogos.svg'
 
 export default function techInfo() {
 
