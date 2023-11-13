@@ -1,9 +1,9 @@
 import { Divider } from '@mui/material';
-import jsIcons from './imagenes/techLogos/3.svg'
-import CSSIcons from './imagenes/techLogos/4.svg'
-import DBIcons from './imagenes/techLogos/5.svg'
-import HTMLIcons from './imagenes/techLogos/html.svg'
-import otrosLogos from './imagenes/techLogos/otrosLogos.svg'
+import jsIcons from './imagenes/techlogos/3.svg'
+import CSSIcons from './imagenes/techlogos/4.svg'
+import DBIcons from './imagenes/techlogos/5.svg'
+import HTMLIcons from './imagenes/techlogos/html.svg'
+import otrosLogos from './imagenes/techlogos/otrosLogos.svg'
 
 export default function techInfo() {
 
