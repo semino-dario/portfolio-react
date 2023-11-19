@@ -6,7 +6,7 @@ import SwipeableTextMobileStepper from "./SwipeableTextMobileStepper";
 
 export default function Traducciones() {
 
-    const imagenes = [{ label: '', imgPath: compu2 }, { label: '', imgPath: celular }]
+    const imagenes = [{ label: ' ', imgPath: compu2 }, { label: '', imgPath: celular }]
 
     return (
         <div className="flex flex-col justify-center md:flex-row md:h-[450px]">
@@ -20,8 +20,10 @@ export default function Traducciones() {
                     <img src={traducciones} alt="" /></div>
                 <Project
                     imagenes={null}
-                    generalInfo={'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio perferendis porro saepe necessitatibus nesciunt atque aliquam quis, architecto itaque quam voluptate exercitationem. Totam, dolore accusamus animi ullam officiis molestiae facere?'}
-                    techInfo={'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio perferendis porro saepe necessitatibus nesciunt atque aliquam quis, architecto itaque quam voluptate exercitationem. Totam, dolore accusamus animi ullam officiis molestiae facere?'}
+                    generalInfo={'This is the first site I developed. It`s a static site offering literary translation services.'}
+                    techInfo={' The site was developed with Vanilla JavaScript, HTML and CSS with and Bootstrap. The entire site is responsive. I have plans to migrate it to React and connect it to an API and a database, but I never seem to find the time to do it.'}
+                    site={'https://traduccionesliterarias.com/'}
+                    repo={'https://github.com/semino-dario/traduccionesWeb'}
                 />
             </div>
         </div>

@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 
 
 
-export default function OutlinedCard({ escuela, curso, año, horas, imagen }) {
+export default function OutlinedCard({ escuela, curso, año, horas, imagen, verCredencial }) {
 
     const card = (
         <React.Fragment>
@@ -26,7 +26,7 @@ export default function OutlinedCard({ escuela, curso, año, horas, imagen }) {
                 </Typography>
             </CardContent>
             <CardActions>
-                <Button size="big">Ver Credencial</Button>
+                <Button onClick={verCredencial} size="big">Ver Credencial</Button>
                 <img src={imagen} className='w-[35px] mb-[50px] mr-[35px]' alt="" />
             </CardActions>
         </React.Fragment>

@@ -17,6 +17,7 @@ export default function Project({ name, image, excerpt, techInfo, generalInfo, s
         setOpenPanel(false)
     }
 
+
     return (
         <div className="container flex flex-col  w-72 shrink-0 mx-auto">
             {imagenes === null ?

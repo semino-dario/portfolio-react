@@ -7,7 +7,7 @@ export default function Arteludovica() {
 
     return (
 
-        <div className=" flex flex-col justify-around py-12 shadow-2xl bg-negroGris md:h-[730px] md:flex-row md:px-4 "
+        <div className=" flex flex-col justify-around py-12 shadow-2xl bg-negroGris  md:flex-row md:px-4 "
         >
             <div>
                 <div>
@@ -26,8 +26,10 @@ export default function Arteludovica() {
                 <div className='md:mt-[80px]'>
                     <Project
                         imagenes={null}
-                        generalInfo={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptatem cumque perspiciatis et distinctio. Veniam ut autem veritatis aliquam nobis sint quia itaque delectus, labore iusto suscipit dolores nihil nulla.'}
-                        techInfo={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptatem cumque perspiciatis et distinctio. Veniam ut autem veritatis aliquam nobis sint quia itaque delectus, labore iusto suscipit dolores nihil nulla.'}
+                        generalInfo={'On this site, all the material from the Arteludovica Theater Company is available, of which I was a part several years ago. There are galleries of images, videos, texts, and PDF downloads. In addition to the main site, there are three sections or subsites corresponding to each of the theater productions premiered by the company. In each case, the design of the section varies to adapt to the aesthetics of the respective play.'}
+                        techInfo={'This is the second site I developed with HTML, CSS, and Javascript on the frontend, along with a simple backend developed with PHP and a SQL database. The project involved a focus on design, leading me to delve deeper into CSS, Figma, and the creation of custom icons using SVG.'}
+                        site={'https://arteludovica.com.ar/'}
+                        repo={'https://github.com/semino-dario/arteludovica'}
                     />
                     <br />
                 </div>

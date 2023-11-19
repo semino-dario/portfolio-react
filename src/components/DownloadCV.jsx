@@ -6,7 +6,7 @@ import DialogTitle from '@mui/material/DialogTitle';
 import { useState } from 'react';
 import { Fab } from '@mui/material';
 import { saveAs } from 'file-saver';
-import pdfFile from './files/Dario-Semino.pdf';
+import pdfFile from './files/CV-Dario-Semino.pdf';
 
 
 export default function DownloadCV() {

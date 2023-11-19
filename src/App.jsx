@@ -1,29 +1,36 @@
-import Header from './components/Header'
 import './App.css'
-import Acerca from './components/Acerca'
-import TechIcons from './components/TechIcons'
-import Formacion from './components/Formacion'
-import Colofon from './components/Colofon'
-import ProjectSection from './components/ProjectSection'
+import CredencialP5 from './components/CredencialP5'
+import { BrowserRouter, Routes, Route, useParams } from 'react-router-dom';
+import { Home } from './components/Home';
+import { useEffect } from 'react';
 
-function App() {
+
+export default function App() {
+
+  const { id } = useParams('id')
+
+  const scrollToSection = (x) => {
+    const sectionId = Object.values(x)
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView()
+    }
+  };
+  useEffect(
+    () => { if (id) { scrollToSection(id) } }, []
+  )
 
   return (
     <div>
-      <div className='bg-fondoAzul  bg-bottom bg-cover bg-no-repeat h-[200px] md:h-[450px]'>
-      </div>
-      <div className='mt-[-200px] md:mt-[-400px]'>
-        <Header />
-        <Acerca />
-      </div>
-      <ProjectSection />
-      <Formacion />
-      <TechIcons />
-      <Colofon />
-      <br />
-      <br />
+      <Home />
+      {/* <BrowserRouter>
+        <Routes>
+          <Route index='home' element={<Home />} />
+          <Route path="home" element={<Home />} />
+          <Route to='/credenciales/:id' element={<CredencialP5 />} />
+        </Routes>
+      </BrowserRouter> */}
     </div>
   )
 }
-export default App
 
