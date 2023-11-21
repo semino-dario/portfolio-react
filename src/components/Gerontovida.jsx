@@ -43,7 +43,7 @@ export default function Gerontovida() {
                         <Project
                             imagenes={imagenes}
                             techInfo={"This is the login section of the site. User authentication and session management are carried out through a token generated using JSON Web Tokens (JWT). API queries are conducted using Axios. This section is not responsive."}
-                            generalInfo={"In this sample of the site, it's possible to perform operations to register as a user and access the dashboard to publish, edit, or delete articles in the news section. It's also possible to recover the password and access information about the logged-in user. In the Canasta section, it's possible to publish, edit, or delete any of the Canastas. Additionally, you can upload a PDF file with information about the Canasta, which can be downloaded later."}
+                            generalInfo={"In this sample of the site, it's possible to perform operations to register as a user and access the dashboard to publish, edit, or delete articles in the news section. It's also possible to recover the password and access information about the logged-in user. In the Canasta section, it's possible to publish, edit, or delete any of the Canasta's charts. Additionally, you can upload a PDF file with information about the chart, which can be downloaded later."}
                             site={"https://gerontovida-muestra.netlify.app/sesion"}
                             repo={"https://github.com/semino-dario/gerontovida"}
                         />
@@ -53,7 +53,7 @@ export default function Gerontovida() {
                             name={'- Backend -'}
                             excerpt={'API with Node JS and Mongo DB'}
                             image={api}
-                            techInfo={"This API was developped with Node.js, Exprees, and Mongo DB. It's hosted in Cyclic.  The images for articles and PDF files are loaded into an AWS S3 bucket."}
+                            techInfo={"This API was developed with Node.js, Exprees, and Mongo DB. It's hosted in Cyclic.  The images for articles and PDF files are loaded into an AWS S3 bucket."}
                             generalInfo={"This API handles different kind of writen content, for example articles for different blog applications. It also has all the typital authentication functionalities for users with Jason Web Token (JWT). This version is a sample of the real application, in which some functionalities such as password recovery email sending are disabled."}
                             site={"https://api-contenidos.cyclic.app/"}
                             repo={"https://github.com/semino-dario/api-contenidos"}

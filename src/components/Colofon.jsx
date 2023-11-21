@@ -8,7 +8,7 @@ export default function Colofon() {
             <p>
                 <br />
             </p>
-            <p className='text-2xl text-center'>
+            <p className='text-2lg md:text-2xl text-center'>
                 This portfolio was developed using React with Vite. The styles were created with Tailwind and Material UI. The design was crafted in Figma, with some images in SVG taken from Canva. You can contact me at dariomartinsemino@gmail.com. <br /> Thank you for visiting. </p>
             <br />
             <br />

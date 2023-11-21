@@ -21,7 +21,7 @@ export default function Traducciones() {
                 <Project
                     imagenes={null}
                     generalInfo={'This is the first site I developed. It`s a static site offering literary translation services.'}
-                    techInfo={' The site was developed with Vanilla JavaScript, HTML and CSS with and Bootstrap. The entire site is responsive. I have plans to migrate it to React and connect it to an API and a database, but I never seem to find the time to do it.'}
+                    techInfo={' The site was developed with Vanilla JavaScript, HTML and CSS with Bootstrap. The entire site is responsive. I have plans to migrate it to React and connect it to an API and a database, but I never seem to find the time to do it.'}
                     site={'https://traduccionesliterarias.com/'}
                     repo={'https://github.com/semino-dario/traduccionesWeb'}
                 />
