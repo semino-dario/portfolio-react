@@ -7,8 +7,6 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import CredencialP5 from './components/CredencialP5';
-import Formacion from './components/Formacion';
-import { Home } from './components/Home';
 
 
 const router = createBrowserRouter([

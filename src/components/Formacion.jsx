@@ -36,7 +36,7 @@ export default function Formacion() {
                         <img className='[w-70%] md:h-[600px] cover ' src={credenciales[credencial]} alt="" />
                         <div>
                             <Button onClick={() => setImagen(false)} variant="contained" color="error">
-                                Cerrar
+                                Close
                             </Button>
                         </div>
                     </div>
