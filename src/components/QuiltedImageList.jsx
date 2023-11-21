@@ -1,18 +1,18 @@
 import * as React from 'react';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
-import arteludovica from './imagenes/arteludovica.png'
-import obras from './imagenes/obras.png'
-import disco from './imagenes/disco.png'
-import fantasmas from './imagenes/fantasmas.png'
-import banquete from './imagenes/banquete.png'
-import nanu from './imagenes/nanu.png'
-import igon from './imagenes/igon.png'
-import socrates from './imagenes/socrates.png'
-import viqui from './imagenes/viqui.png'
-import nicoDiego from './imagenes/nico-diego.png'
-import vino from './imagenes/vino.png'
-import radio from './imagenes/radio.png'
+import arteludovica from './imagenes/arteludovica/arteludovica.webp'
+import obras from './imagenes/arteludovica/obras.webp'
+import disco from './imagenes/arteludovica/disco.webp'
+import fantasmas from './imagenes/arteludovica/fantasmas.webp'
+import banquete from './imagenes/arteludovica/banquete.webp'
+import nanu from './imagenes/arteludovica/nanu.webp'
+import igon from './imagenes/arteludovica/igon.webp'
+import socrates from './imagenes/arteludovica/socrates.webp'
+import viqui from './imagenes/arteludovica/viqui.webp'
+import nicoDiego from './imagenes/arteludovica/nico-diego.webp'
+import vino from './imagenes/arteludovica/vino.webp'
+import radio from './imagenes/arteludovica/radio.webp'
 
 
 function srcset(image, size, rows = 1, cols = 1) {

@@ -8,15 +8,6 @@ export default function App() {
 
   useEffect(() => {
 
-    setTimeout(() => { setLoader(false) }, 2000)
-
-  }, []
-
-  )
-
-
-  useEffect(() => {
-
     setTimeout(() => { setOpac(false) }, 1500)
 
   }, []

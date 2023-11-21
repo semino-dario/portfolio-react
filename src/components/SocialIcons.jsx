@@ -9,6 +9,7 @@ export default function SocialIcons() {
             <a href="mailto:dariomartinsemino@gmail.com" target="_blank"> <div className="w-[30px] md:w-[55px]">
                 <img src={Mail} alt="Mail" /> </div></a>
 
+
             <a href='https://www.linkedin.com/in/dar%C3%ADo-semino-96a88920b/' target="_blank"> <div className="w-[30px] md:w-[55px]">
                 <img src={Linkedin} alt="Linkedin" /> </div></a>
             <a href="https://github.com/semino-dario" target="_blank"> <div className="w-[30px] md:w-[50px]">  <img src={Github} alt="Github" /> </div></a>

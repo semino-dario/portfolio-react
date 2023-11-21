@@ -12,15 +12,12 @@ export default {
             verde: "#C8F8C9",
             negroGris: 'rgb(23 23 23)',
             blanco: '#fff'
-
-
         },
         extend: {
 
             backgroundImage: {
                 'fondoAzul': "url('./components/imagenes/techlogos/fondo.svg')",
                 'triangulos': "url('./components/imagenes/triangulos.svg')",
-                'fondoTrans': "url('./components/imagenes/fondoTrans.svg')"
 
             }
         },
