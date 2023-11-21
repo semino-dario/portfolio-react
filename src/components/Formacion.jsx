@@ -2,27 +2,22 @@ import OutlinedCard from "./Card";
 import udemy from './imagenes/udemy.svg'
 import it from './imagenes/it.png'
 import p5 from './imagenes/p5.png'
-import credencialP5 from './imagenes/credenciales/credencial-p5.png'
+import credencialP5 from './imagenes/credenciales/credencial-p5.webp'
 import credencialUdemy from './imagenes/credenciales/credencial-udemy.png'
-import credencialIt from './imagenes/credenciales/credencial-it.png'
+import credencialIt from './imagenes/credenciales/credencial-it.webp'
 import TitleSection from "./TitleSection";
-import { Button, Divider } from "@mui/material";
+import { Divider } from "@mui/material";
 import formacion from './imagenes/formacion.svg'
-import { useState } from "react";
-import Certificados from "./Certificados";
 
 
 
 export default function Formacion() {
 
-    const [imagen, setImagen] = useState(false)
-    const [credencial, setCredencial] = useState(0)
 
     const cursos = [{ escuela: 'Udemy', curso: 'Node.js - The Complete RESTful API Masterclass', año: '2023', horas: '11 hs', imagen: udemy, credencial: credencialUdemy, id: 2 }, { escuela: 'Educación IT', curso: 'React.JS Developer', año: '2023', horas: '36 hs', imagen: it, credencial: credencialIt, id: 1 },
     { escuela: 'Plataforma 5', curso: 'Scrum Master Program / Curso Introductorio de Programación', año: '2022', horas: '54 hs', imagen: p5, credencial: credencialP5, id: 0 }
     ]
 
-    const credenciales = [credencialP5, credencialIt, credencialUdemy]
 
     return (
 
