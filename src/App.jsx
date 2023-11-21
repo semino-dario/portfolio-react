@@ -1,35 +1,28 @@
+import { useEffect, useState } from 'react';
 import './App.css'
-import CredencialP5 from './components/CredencialP5'
-import { BrowserRouter, Routes, Route, useParams } from 'react-router-dom';
 import { Home } from './components/Home';
-import { useEffect } from 'react';
-
+import { CircularProgress } from '@mui/material';
 
 export default function App() {
 
-  const { id } = useParams('id')
+  const [loader, setLoader] = useState(true)
 
-  const scrollToSection = (x) => {
-    const sectionId = Object.values(x)
-    const section = document.getElementById(sectionId);
-    if (section) {
-      section.scrollIntoView()
-    }
-  };
-  useEffect(
-    () => { if (id) { scrollToSection(id) } }, []
+  useEffect(() => {
+
+    setTimeout(() => { setLoader(false) }, 2000)
+  }, []
+
+
   )
 
   return (
     <div>
-      <Home />
-      {/* <BrowserRouter>
-        <Routes>
-          <Route index='home' element={<Home />} />
-          <Route path="home" element={<Home />} />
-          <Route to='/credenciales/:id' element={<CredencialP5 />} />
-        </Routes>
-      </BrowserRouter> */}
+      {loader ?
+        <div className='flex  flex-col justify-center items-center h-[100vh]'>
+          <CircularProgress />
+        </div>
+        :
+        <Home />}
     </div>
   )
 }
