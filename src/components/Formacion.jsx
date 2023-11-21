@@ -3,7 +3,7 @@ import udemy from './imagenes/udemy.svg'
 import it from './imagenes/it.png'
 import p5 from './imagenes/p5.png'
 import credencialP5 from './imagenes/credenciales/credencial-p5.webp'
-import credencialUdemy from './imagenes/credenciales/credencial-udemy.png'
+import credencialUdemy from './imagenes/credenciales/credencial-udemy.webp'
 import credencialIt from './imagenes/credenciales/credencial-it.webp'
 import TitleSection from "./TitleSection";
 import { Divider } from "@mui/material";
