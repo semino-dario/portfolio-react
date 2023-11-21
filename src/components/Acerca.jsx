@@ -1,4 +1,4 @@
-import { Divider, Fab } from "@mui/material";
+import { Divider } from "@mui/material";
 import quien from './imagenes/quien.svg'
 import TitleSection from "./TitleSection";
 import DownloadCV from "./DownloadCV";
