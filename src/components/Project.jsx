@@ -34,7 +34,7 @@ export default function Project({ name, image, excerpt, techInfo, generalInfo, s
                 </div>
             }
             <div className="rounded-xl h-[50px] w-full  bg-azulOscuro flex items-center justify-around mt-[15px] " style={{ color: 'gray' }}>
-                <a href={site} className="hover:text-titulo" target="_blank"> visit site</a> <a href={repo} target="_blank" className="flex flex-row gap-3 items-center justify-center hover:text-titulo" > visit repo </a>
+                <a href={site} className="hover:text-titulo" target="_blank">{site ? "visit site" : ""}</a> <a href={repo} target="_blank" className="flex flex-row gap-3 items-center justify-center hover:text-titulo" > visit repo </a>
             </div>
 
             <div onClick={handleCLick} className="bg-azulClaro rounded-xl h-[50px] w-full flex items-center justify-around mt-[15px] cursor-pointer">

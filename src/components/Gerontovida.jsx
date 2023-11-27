@@ -43,8 +43,7 @@ export default function Gerontovida() {
                         <Project
                             imagenes={imagenes}
                             techInfo={"This is the login section of the site. User authentication and session management are carried out through a token generated using JSON Web Tokens (JWT). API queries are conducted using Axios. This section is not responsive."}
-                            generalInfo={"In this sample of the site, it's possible to perform operations to register as a user and access the dashboard to publish, edit, or delete articles in the news section. It's also possible to recover the password and access information about the logged-in user. In the Canasta section, it's possible to publish, edit, or delete any of the Canasta's charts. Additionally, you can upload a PDF file with information about the chart, which can be downloaded later."}
-                            site={"https://gerontovida-muestra.netlify.app/sesion"}
+                            generalInfo={" Public access is not allowed to this section. Here it's possible to perform operations to register as a user and access the dashboard to publish, edit, or delete articles in the news section. It's also possible to recover the password and access information about the logged-in user. In the Canasta section, it's possible to publish, edit, or delete any of the Canasta's charts. Additionally, you can upload a PDF file with information about the chart, which can be downloaded later."}
                             repo={"https://github.com/semino-dario/gerontovida"}
                         />
                         <br />
