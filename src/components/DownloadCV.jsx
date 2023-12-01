@@ -29,7 +29,7 @@ export default function DownloadCV() {
 
     return (
         <React.Fragment>
-            <Fab variant='extended' onClick={handleClickOpen}>Download CV</Fab>
+            <Fab variant='extended' onClick={handleClickOpen}>Download Resume</Fab>
             <Dialog
                 open={open}
                 onClose={handleClose}

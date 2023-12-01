@@ -52,9 +52,10 @@ export default function Gerontovida() {
                             name={'- Backend -'}
                             excerpt={'API with Node JS and Mongo DB'}
                             image={api}
-                            techInfo={"This API was developed with Node.js, Exprees, and Mongo DB. It's hosted in Cyclic.  The images for articles and PDF files are loaded into an AWS S3 bucket."}
-                            generalInfo={"This API handles different kind of writen content, for example articles for different blog applications. It also has all the typital authentication functionalities for users with Jason Web Token (JWT). This version is a sample of the real application, in which some functionalities such as password recovery email sending are disabled."}
-                            site={"https://api-contenidos.cyclic.app/"}
+                            techInfo={"This API was developed with Node.js, Exprees, and Mongo DB.  The images for articles and PDF files are loaded into an AWS S3 bucket."}
+                            generalInfo={"This API handles different kind of writen content, for example articles for different blog applications. It also has all the typital authentication functionalities for users with Jason Web Token (JWT). "}
+                            docs={true}
+                            site={"https://api-docs.netlify.app/"}
                             repo={"https://github.com/semino-dario/api-contenidos"}
                         />
                         <br />
