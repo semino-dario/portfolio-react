@@ -12,7 +12,7 @@ export default function Acerca() {
                 <p>
                     My name is Darío Semino, and I'm from Argentina. I became interested in web development in late 2021. I took several courses and worked on personal and professional projects, with a primary focus on Frontend development using React. Additionally, I possess basic knowledge of Backend technologies such as Node.js, MongoDB, and SQL. You can find examples of the projects I've worked on here.
                     <br /> <br />
-                    I also love literature, philosophy and learning languages. Besides Spanish, I'm fluent y English and French.
+                    I also love literature, philosophy and learning languages. Besides Spanish, I'm fluent in English and French.
                 </p>
             </section>
             <br />
