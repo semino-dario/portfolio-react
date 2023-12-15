@@ -20,8 +20,9 @@ export default function techInfo() {
                             fondo='#033F63'
                         /></div>
                     </div>
-
+                    <br />
                     <img className='' src={jsIcons} alt="" />
+                    <br />
                     <img className='' src={CSSIcons} alt="" />
                     <img className='' src={DBIcons} alt="" />
                     <img className='w-[25%] ml-[-3%] mt-[20px] mb-[20px] md:w-[150px] md:ml-[70px]' src={HTMLIcons} alt="" />
