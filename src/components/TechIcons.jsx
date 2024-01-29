@@ -1,9 +1,9 @@
-import { Divider } from '@mui/material';
 import jsIcons from './imagenes/techlogos/3.svg'
 import CSSIcons from './imagenes/techlogos/4.svg'
 import DBIcons from './imagenes/techlogos/5.svg'
 import HTMLIcons from './imagenes/techlogos/html.svg'
 import otrosLogos from './imagenes/techlogos/6.svg'
+import otrosLogos2 from './imagenes/techlogos/7.svg'
 import TitleSection from './TitleSection';
 
 export default function techInfo() {
@@ -33,6 +33,7 @@ export default function techInfo() {
                         < p className='text-titulo text-[25px] md:text-[35px]'>A few more tools:</p>
                     </div>
                     <img src={otrosLogos} className="md:w-[80%] " alt="" />
+                    <img src={otrosLogos2} className="md:w-[80%] " alt="" />
                 </div>
                 <br />
                 <br />

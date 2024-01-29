@@ -16,7 +16,7 @@ export default function Certificados({ imagenes }) {
 
     return (
 
-        <React.Fragment>
+        <div >
             <p className='cursor-pointer text-titulo hover:text-azulClaro' onClick={handleClickOpen}>CERTIFICATE</p>
             <Dialog
                 open={open}
@@ -25,12 +25,12 @@ export default function Certificados({ imagenes }) {
                 aria-describedby="alert-dialog-description"
             >
                 <div>
-                    <img src={imagenes} className='cover' alt="" />
+                    <img src={imagenes} className='cover ' alt="" />
                 </div>
                 <DialogActions>
                     <Button onClick={handleClose}>Close</Button>
                 </DialogActions>
             </Dialog>
-        </React.Fragment>
+        </div>
     )
 }
