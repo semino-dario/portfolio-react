@@ -27,7 +27,7 @@ export default function Formacion() {
             />
             </Divider>
             <div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justiy-around mt-[5%] md:w-[80%]">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justiy-around mt-[5%] md:w-[90%]">
                     {cursos.map((item) => (
                         <div key={item.curso} className="mb-[10px]">
                             <OutlinedCard
