@@ -11,7 +11,7 @@ export default function Arteludovica() {
         >
             <div>
                 <div>
-                    <img className='w-[340px] md:w-[700px]' src={tituloLudovica} alt="" />
+                    <img className='w-[90%] md:w-[44rem] lg:w-[35rem]' src={tituloLudovica} alt="" />
                 </div>
 
                 <div className='p-2 rounded bg-blanco w-[340px] '>

@@ -25,10 +25,10 @@ export default function Gerontovida() {
 
                 <br />
                 <div className="container max-w-[100%]">
-                    <div className="w-[350px]">
+                    <div className="w-[21.2rem]">
                         <img src={portadaGeronto} alt="Muestra del sitio Gerontovida" />
                     </div>
-                    <div className=" flex flex-col  gap-[10px] max-w-[95%] p-6 md:flex-row justify-center ">
+                    <div className=" grid grid-cols-1 gap-[10px] max-w-[95%] p-6 md:grid-cols-2 lg:grid-cols-3 justify-around ">
                         <Project
                             name={'- Public Site -'}
                             excerpt={'Articles, charts and information'}
@@ -38,16 +38,13 @@ export default function Gerontovida() {
                             site={"https://gerontovida.org.ar/"}
                             repo={"https://github.com/semino-dario/gerontovida"}
                         />
-                        <br />
-                        <br />
+
                         <Project
                             imagenes={imagenes}
                             techInfo={"This is the login section of the site. User authentication and session management are carried out through a token generated using JSON Web Tokens (JWT). API queries are conducted using Axios. This section is not responsive."}
                             generalInfo={"This is the private side of the website. Public access is not allowed to this section. Here it's possible to perform operations to register as a user and access the dashboard to publish, edit, or delete articles in the news section. It's also possible to recover the password and access information about the logged-in user. In the Canasta section, it's possible to publish, edit, or delete any of the Canasta's charts. Additionally, you can upload a PDF file with information about the chart, which can be downloaded later."}
                             repo={"https://github.com/semino-dario/gerontovida"}
                         />
-                        <br />
-                        <br />
                         <Project
                             name={'- Backend -'}
                             excerpt={'API with Node JS and Mongo DB'}

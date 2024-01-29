@@ -28,7 +28,7 @@ export default function techInfo() {
                     <img className='w-[25%] ml-[-3%] mt-[1.2rem] mb-[1.2rem] md:w-[9.4rem] md:ml-[4.4rem]' src={HTMLIcons} alt="" />
                 </div>
                 <br />
-                <div className='bg-azulOscuro w-[95%] border-solid mt-[2rem] border-2 p-2 border-azulClaro rounded-lg md:w-[50rem]'>
+                <div className='bg-azulOscuro w-[95%] border-solid mt-[2rem] border-2  border-azulClaro rounded-lg md:w-[50rem]'>
                     <div className='flex flex-col justify-center items-center'>
                         < p className='text-titulo text-[1.5rem] md:text-[2.2rem]'>A few more tools:</p>
                     </div>

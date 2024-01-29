@@ -9,11 +9,11 @@ export default function Traducciones() {
     const imagenes = [{ label: ' ', imgPath: compu2 }, { label: '', imgPath: celular }]
 
     return (
-        <div>
-            <div className=" w-[340px]   md:w-[450px]">
+        <div className="w-[90%]">
+            <div className=" w-[90%]   md:w-[28.1rem]">
                 <img src={traducciones} alt="" /></div>
             <br />
-            <div className="flex flex-col justify-center md:flex-row md:h-[450px]">
+            <div className="flex flex-col justify-center md:flex-row md:h-[28.1rem]">
 
                 <div className="border-solid border-2 border-titulo rounded-xl shadow-lg p-1" >
                     <SwipeableTextMobileStepper
