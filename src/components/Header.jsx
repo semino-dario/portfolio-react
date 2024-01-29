@@ -8,7 +8,7 @@ const Header = () => {
                 <div className="">
                     <img src={RetratoDario} className="rounded-full w-40 h-40 object-cover border-2 border-titulo md:w-[15rem] md:h-[15rem] " alt="Darío Semino's photo" />
                 </div>
-                <div className="w-62 flex flex-col items-center font-bold mt-14 md:ml-[-17rem]">
+                <div className="w-62 flex flex-col items-center font-bold mt-14 ">
                     <h1 className="text-2xl uppercase  text-2xl text-titulo mt-[-3rem] md:text-6xl">Portfolio</h1>
                     <div className="text-center text-azulOscuro text-sm  md:flex md:flex-row md:gap-[0.9rem]">
                         <p className="md:text-xl text-fondo">Darío Semino</p>
