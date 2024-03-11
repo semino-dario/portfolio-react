@@ -10,9 +10,7 @@ import { Divider } from "@mui/material";
 import formacion from './imagenes/formacion.svg'
 
 
-
 export default function Formacion() {
-
 
     const cursos = [{ escuela: 'Udemy', curso: 'Node.js - The Complete RESTful API Masterclass', año: '2023', horas: '11 hs', imagen: udemy, credencial: credencialUdemy, id: 2 }, { escuela: 'Educación IT', curso: 'React.JS Developer', año: '2023', horas: '36 hs', imagen: it, credencial: credencialIt, id: 1 },
     { escuela: 'Plataforma 5', curso: 'Scrum Master Program / Curso Introductorio de Programación', año: '2022', horas: '54 hs', imagen: p5, credencial: credencialP5, id: 0 }

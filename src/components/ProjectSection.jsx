@@ -1,6 +1,6 @@
 import { Divider } from '@mui/material';
 import '../App.css'
-import Arteludovica from "./Arteludovica";
+import Arteludovica from "./arteludovica/Arteludovica";
 import Gerontovida from "./Gerontovida";
 import Traducciones from './Traducciones';
 import TitleSection from './TitleSection';

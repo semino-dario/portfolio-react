@@ -17,7 +17,7 @@ export default function Certificados({ imagenes }) {
     return (
 
         <div >
-            <p className='cursor-pointer text-titulo hover:text-azulClaro' onClick={handleClickOpen}>CERTIFICATE</p>
+            <p className='cursor-pointer text-titulo hover:text-azulClaro' onClick={handleClickOpen}>SEE CERTIFICATE</p>
             <Dialog
                 open={open}
                 onClose={handleClose}

@@ -1,29 +1,29 @@
-import Project from './Project'
-import QuiltedImageList from './QuiltedImageList'
-import tituloLudovica from './imagenes/tituloLudovica.svg'
-import mascara from './imagenes/mascara.svg'
+import Project from './../Project'
+import tituloLudovica from './../imagenes/tituloLudovica.svg'
+import mascaras from './../imagenes/arteludovica/mascaras.png'
+import ArteludoviaGallery from './ArteludoviaGallery'
+import ArteludovicaSites from './ArteludovicaSites'
+
 
 export default function Arteludovica() {
 
     return (
 
-        <div className=" flex flex-col justify-around py-12 shadow-2xl bg-negroGris  md:flex-row md:px-4 "
-        >
-            <div>
-                <div>
-                    <img className='w-[90%] md:w-[44rem] lg:w-[35rem]' src={tituloLudovica} alt="" />
+        <div className='shadow-2xl bg-negroGris pb-[5rem]'>
+
+            <div className=" flex flex-col justify-around py-12 md:px-4 ">
+                <div className='flex flex-col md:flex-row gap-[8rem]'>
+                    <div>
+                        <img className='w-[90%] md:w-[44rem] hidden md:block' src={tituloLudovica} alt="" />
+                    </div>
+
+                    <div >
+                        <img className='w-[300px] mt-[5px]' src={mascaras} alt="" />
+                    </div>
                 </div>
 
-                <div className='p-2 rounded bg-blanco w-[340px] '>
-                    <QuiltedImageList />
-                </div>
-
-            </div>
-            <div className='flex flex-col-reverse md:flex-col' >
-                <div >
-                    <img className='w-[150px] mt-[30px]' src={mascara} alt="" />
-                </div>
-                <div className='md:mt-[80px]'>
+                <div className='flex flex-col md:flex-row gap-[3rem]'>
+                    <ArteludovicaSites />
                     <Project
                         imagenes={null}
                         generalInfo={'On this site, all the material from the Arteludovica Theater Company is available, of which I was a part several years ago. There are galleries of images, videos, texts, and PDF downloads. In addition to the main site, there are three sections or subsites corresponding to each of the theater productions premiered by the company. In each case, the design of the section varies to adapt to the aesthetics of the respective play.'}
@@ -34,7 +34,8 @@ export default function Arteludovica() {
                     <br />
                 </div>
             </div>
-
+            <br /> <br />
+            <ArteludoviaGallery />
         </div>
     )
 }

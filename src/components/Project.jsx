@@ -37,7 +37,7 @@ export default function Project({ name, image, excerpt, techInfo, generalInfo, s
                 <a href={site} className="hover:text-titulo" target="_blank">{site ? !docs ? "visit site" : "visit docs" : ""}</a> <a href={repo} target="_blank" className="flex flex-row gap-3 items-center justify-center hover:text-titulo" > visit repo </a>
             </div>
 
-            <div onClick={handleCLick} className="bg-azulClaro rounded-xl h-[50px] w-full flex items-center justify-around mt-[15px] cursor-pointer">
+            <div onClick={handleCLick} className={`bg-azulClaro rounded-xl h-[50px] w-full flex items-center justify-around mt-[15px] cursor-pointer ${!generalInfo && "hidden"}`}>
                 <p >General information</p> <p>{!openPanel ? '+' : '-'}</p>
             </div>
             <Collapse className="ReactCollapse--collapse" isOpened={!openPanel ? false : true}>
@@ -45,7 +45,7 @@ export default function Project({ name, image, excerpt, techInfo, generalInfo, s
                     {generalInfo}
                 </div>
             </Collapse>
-            <div onClick={handleCLick2} className="rounded-xl h-[50px] w-full bg-azulMedio flex items-center mt-[15px] justify-around cursor-pointer">
+            <div onClick={handleCLick2} className={`rounded-xl h-[50px] w-full bg-azulMedio flex items-center mt-[15px] justify-around cursor-pointer ${!techInfo && "hidden"}`}>
                 <p style={{ color: 'black' }}> Technical information</p> <p>{!openPanel2 ? '+' : '-'}</p>
             </div>
             <Collapse className="ReactCollapse--collapse" isOpened={!openPanel2 ? false : true}>
