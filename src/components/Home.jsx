@@ -8,7 +8,7 @@ import ProjectSection from './ProjectSection'
 export function Home() {
 
     return (
-        <>
+        <div className="mx-auto max-w-screen-xlg">
             <div className='bg-fondoAzul  bg-bottom bg-cover bg-no-repeat h-[14rem] md:h-[28rem]'>
             </div>
             <div className='mt-[-14rem] md:mt-[-25rem]'>
@@ -21,6 +21,6 @@ export function Home() {
             <Colofon />
             <br />
             <br />
-        </>
+        </div>
     )
 }

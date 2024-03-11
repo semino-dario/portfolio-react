@@ -12,13 +12,14 @@ export default function Arteludovica() {
         <div className='shadow-2xl bg-negroGris pb-[5rem]'>
 
             <div className=" flex flex-col justify-around py-12 md:px-4 ">
-                <div className='flex flex-col md:flex-row gap-[8rem]'>
+                <div className='flex flex-col md:flex-row md:gap-[8rem]'>
                     <div>
-                        <img className='w-[90%] md:w-[44rem] ' src={tituloLudovica} alt="" />
+                        <p className='text-3xl md:hidden text-[#e9dcc2] font-extrabold	'>Compañía Arteludovica</p>
+                        <img className='w-[100%] md:w-[44rem] hidden md:block ' src={tituloLudovica} alt="" />
                     </div>
 
                     <div >
-                        <img className='w-[300px] mt-[5px]' src={mascaras} alt="" />
+                        <img className='w-[250px] mt-[5px]' src={mascaras} alt="" />
                     </div>
                 </div>
 

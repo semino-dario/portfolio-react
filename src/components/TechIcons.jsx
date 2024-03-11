@@ -53,7 +53,7 @@ export default function techInfo() {
                     </div>
                     <img src={otrosLogos} className="md:w-[80%] " alt="techologies logos" />
                     <img src={otrosLogos2} className=" " alt="techologies logos" />
-                    <img className='ml-[10%]' src={DBIcons} alt="techologies logos" />
+                    <img className='lg:ml-[10%]' src={DBIcons} alt="techologies logos" />
                 </div>
                 <br />
                 <br />

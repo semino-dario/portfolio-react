@@ -6,7 +6,7 @@ export default function () {
     const [intervalId, setIntervalId] = useState(null);
     const containerRef = useRef(null);
 
-    const photos = ["https://arteludovica.com.ar/imagenes/imagenes-mdo/mdo-funciones/mdo-funciones-1.jpeg", "https://www.arteludovica.com.ar/imagenes/imagenes-mdo/mdo-funciones/mdo-funciones-4.jpeg", "https://www.arteludovica.com.ar/imagenes/imagenes-mdo/mdo-funciones/mdo-funciones-12.jpeg", "https://www.arteludovica.com.ar/imagenes/imagenes-banquete/banquete-funciones/banquete-funciones-9.jpeg", "https://www.arteludovica.com.ar/imagenes/imagenes-banquete/banquete-funciones/banquete-funciones-2.jpeg", "https://www.arteludovica.com.ar/imagenes/imagenes-banquete/ensayo-banquete/ensayo-banquete-8.jpeg", "https://www.arteludovica.com.ar/imagenes/imagenes-banquete/ensayo-banquete/ensayo-banquete-11.jpeg", "https://www.arteludovica.com.ar/imagenes/imagenes-banquete/ensayo-banquete/ensayo-banquete-17.jpeg"]
+    const photos = ["https://arteludovica.com.ar/imagenes/imagenes-mdo/mdo-funciones/mdo-funciones-1.jpeg", "https://www.arteludovica.com.ar/imagenes/imagenes-mdo/mdo-funciones/mdo-funciones-12.jpeg", "https://www.arteludovica.com.ar/imagenes/imagenes-banquete/banquete-funciones/banquete-funciones-9.jpeg", "https://www.arteludovica.com.ar/imagenes/imagenes-banquete/banquete-funciones/banquete-funciones-2.jpeg", "https://www.arteludovica.com.ar/imagenes/imagenes-banquete/ensayo-banquete/ensayo-banquete-8.jpeg", "https://www.arteludovica.com.ar/imagenes/imagenes-banquete/ensayo-banquete/ensayo-banquete-11.jpeg", "https://www.arteludovica.com.ar/imagenes/imagenes-banquete/ensayo-banquete/ensayo-banquete-17.jpeg"]
 
     useEffect(() => {
         const id = setInterval(() => {
@@ -20,7 +20,7 @@ export default function () {
     useEffect(() => {
         const container = containerRef.current;
         const imageWidth = container.offsetWidth / photos.length;
-        const scrollPos = (photo - 1) * imageWidth; // Scroll one position to the left
+        const scrollPos = (photo - 1) * imageWidth * 4; // Scroll one position to the left
         container.scrollTo({
             left: scrollPos,
             behavior: 'smooth'
@@ -55,11 +55,11 @@ export default function () {
             <div className='' >
                 <img className={`w-[80vw] h-[35rem] z-0  object-cover border-solid border-8 border-[#FFFFFF] rounded-lg`} src={photos[photo]} alt="main image" />
             </div>
-            <div ref={containerRef} className="hidden flex-row gap-4 overflow-auto w-[70vw] mt-[-4rem] sm:flex " >
+            <div ref={containerRef} className="flex-row gap-4 overflow-auto w-[70vw] mt-[-4rem] flex " >
                 {
                     photos.map((image, index) => (
 
-                        <img key={index} onClick={() => handleClick(index)} src={image} className={` z-10 object-cover cursor-pointer w-[10rem] h-[15rem] border-solid border-2 ${index !== photo ? 'border-[#FFFFFF]' : 'border-[#F7567C]'} ${index === 0 && 'object-left'}`} alt="" />
+                        <img key={index} onClick={() => handleClick(index)} src={image} className={` z-10 object-cover cursor-pointer w-[8rem] md:w-[9rem] h-[15rem] border-solid border-2 ${index !== photo ? 'border-[#FFFFFF]' : 'border-[#F7567C]'} ${index === 0 && 'object-left'}`} alt="" />
                     )
                     )
                 }
