@@ -14,7 +14,7 @@ export default function Arteludovica() {
             <div className=" flex flex-col justify-around py-12 md:px-4 ">
                 <div className='flex flex-col md:flex-row gap-[8rem]'>
                     <div>
-                        <img className='w-[90%] md:w-[44rem] hidden md:block' src={tituloLudovica} alt="" />
+                        <img className='w-[90%] md:w-[44rem] ' src={tituloLudovica} alt="" />
                     </div>
 
                     <div >
