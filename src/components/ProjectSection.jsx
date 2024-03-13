@@ -5,7 +5,7 @@ import Gerontovida from "./Gerontovida";
 import Traducciones from './Traducciones';
 import TitleSection from './TitleSection';
 import proyectos from './imagenes/proyectos2.svg'
-
+import OrbisLibrisImage from './orbis-libris/OrbisLibrisImage'
 
 export default function ProjectSection() {
     return (
@@ -23,6 +23,8 @@ export default function ProjectSection() {
             <Arteludovica />
             <br /> <br /> <br /> <br />
             <Traducciones />
+            <br /> <br />
+            <OrbisLibrisImage />
         </div>
     )
 }

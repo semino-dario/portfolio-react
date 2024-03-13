@@ -26,7 +26,7 @@ export default function Traducciones() {
 
                 <div className='flex flex-col mb-[10px] md:w-[20rem] '>
                     <div className="h-[8rem] md:h-[10rem] p-2 md:p-0 z-10">  <Typewriter
-                        text={"In the good old days, I built my first website with code. It was created using only HTML, JavaScript, and CSS with Bootstrap."}
+                        text={"In the good old days, my first website with code. Only HTML, JavaScript, and CSS with Bootstrap."}
                     /></div>
                     <img src={typewriter} className="w-[20rem] mb-[-2rem]z-0" alt="" />
                     <Project

@@ -1,0 +1,11 @@
+.title-orbis{
+    background-image: url('./../imagenes/biblioteca-sola.png');
+    font-size: 15vw;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+    font-weight:800;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
