@@ -1,13 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 import orbis1 from "./../imagenes/biblioteca-orbis-libris.jpg"
 import orbis2 from "./../imagenes/cartel-orbis-libris.jpg"
-//import orbis3 from "./../imagenes/biblioteca-sola.png"
 import useInViewport from './../UseInViewport';
-//import './orbis.css'
 
 export default function OrbisLibrisImage() {
     const [titleOrbis, setTitleOrbis] = useState(false)
-    const [textOrbis, setTextOrbis] = useState(false)
     const containerRef = useRef(null);
     const inViewport = useInViewport(containerRef);
 
@@ -34,10 +31,10 @@ export default function OrbisLibrisImage() {
             </div>
             <br />
             <br />
-            <div className='mt-[70%] md:mt-[40%] flex flex-col justify-center align-center text-[#FFFFFF]'>
+            <div className='mt-[70%] md:mt-[43%] flex flex-col justify-center align-center text-[#FFFFFF]'>
                 <p className=" text-azulClaro text-center font-extrabold text-4xl ">Do you like books?</p>
                 <br />
-                <p className='text-center font-serif text-xl transition-opacity transform'>My personal site for book reviews. <br /> Built with Wordpress and Elementor.</p>
+                <p className='text-center font-serif text-xl transition-opacity transform'>My personal website for book reviews. <br /> Built with Wordpress and Elementor.</p>
                 <br />
                 <a href="https://orbislibris.com/" target="_blank" className="text-xl text-titulo hover:text-azulClaro"> - visit site -</a>
             </div>

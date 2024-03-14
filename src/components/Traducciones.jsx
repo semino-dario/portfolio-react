@@ -16,7 +16,7 @@ export default function Traducciones() {
                 <img src={traducciones} alt="" />
             </div>
             <br />
-            <div className="flex flex-col  md:flex-row justify-center gap-[2rem]">
+            <div className="flex flex-col flex-col-reverse md:flex-row justify-center gap-[2rem]">
 
                 <div className="flex flex-col border-solid border-2 border-titulo rounded-xl shadow-lg pt-2 h-[30rem] w-[20rem] md:w-[26rem] mt-[2rem] " >
                     <SwipeableTextMobileStepper

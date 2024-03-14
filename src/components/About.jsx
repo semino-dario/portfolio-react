@@ -1,9 +1,8 @@
 import { Divider } from "@mui/material";
-import quien from './imagenes/quien.svg'
 import TitleSection from "./TitleSection";
 import DownloadCV from "./DownloadCV";
 
-export default function Acerca() {
+export default function About() {
     return (
         <div className="flex flex-col mt-[50px] md:mt[-50px]">
             <Divider ><TitleSection title='About me' /> </Divider>
@@ -16,8 +15,7 @@ export default function Acerca() {
                     I also love literature, philosophy and learning languages. Besides Spanish, I'm fluent in English and French.
                 </p>
             </section>
-            <br />
-            <div className="">
+            <div className="mt-[2rem]">
                 <DownloadCV />
             </div>
         </div>

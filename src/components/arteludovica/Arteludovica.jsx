@@ -14,7 +14,7 @@ export default function Arteludovica() {
             <div className=" flex flex-col justify-around py-12 md:px-4 ">
                 <div className='flex flex-col md:flex-row md:gap-[8rem]'>
                     <div>
-                        <p className='text-3xl md:hidden text-[#e9dcc2] font-extrabold	'>Compañía Arteludovica</p>
+                        <p className='text-5xl text-center md:hidden text-[#e9dcc2] font-extrabold'>Compañía <br /> Arteludovica</p>
                         <img className='w-[100%] md:w-[44rem] hidden md:block ' src={tituloLudovica} alt="" />
                     </div>
 

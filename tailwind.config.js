@@ -17,6 +17,7 @@ export default {
 
             backgroundImage: {
                 'fondoAzul': "url('./components/imagenes/techlogos/fondo-corregido.svg')",
+                'fondoAzulCorto': "url('./components/imagenes/fondo-recortado.svg')",
                 'triangulos': "url('./components/imagenes/triangulos.svg')",
 
             }

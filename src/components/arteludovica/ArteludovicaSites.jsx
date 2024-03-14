@@ -14,22 +14,23 @@ export default function ArteludovicaSites() {
     const imagesMobile = [portadaCelArteludovica, portadaCelMdo, portadaCelTejedoras, portadaCelBanquete];
 
     return (
-        <div className={`rounded border-solid border-[0.5rem] border-blanco w-[90vw]  md:w-[48vw] h-[42rem] md:h-[32rem] overflow-auto`}>
+        <div className={`rounded border-solid border-[0.5rem] border-blanco w-[95vw]  md:w-[48vw] h-[29rem] md:h-[32rem] overflow-auto`}>
 
-            {/* images of desktop */}
-            {
+            <img src={portadaArteludovica} className='w-[100%] h-[100%] object-cover md:block border-b-[0.3rem] border-b-solid border-b-blanco' alt="Grupo de teatro Arteludovica" />
+
+
+            {/* {
                 imagesDesktop.map((image, index) => (
-                    <img key={index} src={image} className='w-[100%] h-[100%] object-cover hidden md:block border-b-[0.3rem] border-b-solid border-b-blanco' alt="" />
+                    <img key={index} src={image} className='w-[100%] h-[100%] object-cover md:block border-b-[0.3rem] border-b-solid border-b-blanco' alt="" />
                 ))
-            }
+            } */}
 
-            {/* images of mobile */}
-            {
+            {/* {
                 imagesMobile.map((image, index) => (
                     <img key={index} src={image} className='w-[100%] h-[100%] object-cover block md:hidden border-b-[0.3rem] border-b-solid border-b-blanco' alt="" />
 
                 ))
-            }
+            } */}
         </div>
     );
 
