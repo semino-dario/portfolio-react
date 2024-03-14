@@ -14,7 +14,7 @@ export default function techInfo() {
         <div>
             <br />
             <div className='bg-fondoAzul bg-no-repeat bg-cover py-[24rem]'>
-                <div className=" bg-azulOscuro mt-[5.5rem] w-[95%] border-solid border-2 p-1 border-azulClaro rounded-lg md:w-[55%]">
+                <div className=" bg-azulOscuro bg-left mt-[5.5rem] w-[95%] border-solid border-2 p-1 border-azulClaro rounded-lg md:w-[55%]">
                     <div className='flex flex-col items-center'>
                         <div className='mt-[2rem]'>  <TitleSection
                             title='Frontend'

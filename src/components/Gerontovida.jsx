@@ -42,7 +42,7 @@ export default function Gerontovida() {
                                 repo={"https://github.com/semino-dario/gerontovida"}
                             />
                         </div>
-                        <div>
+                        <div className="mt-[2rem] md:mt-0">
                             <p className="text-center text-titulo font-bold"> - LOGIN & DESKTOP - </p>
                             <br />
                             <Project
@@ -51,7 +51,7 @@ export default function Gerontovida() {
                                 generalInfo={"This is the private side of the website. Public access is not allowed to this section. Here it's possible to perform operations to register as a user and access the dashboard to publish, edit, or delete articles in the news section. It's also possible to recover the password and access information about the logged-in user. In the Canasta section, it's possible to publish, edit, or delete any of the Canasta's charts. Additionally, you can upload a PDF file with information about the chart, which can be downloaded later."}
                                 repo={"https://github.com/semino-dario/gerontovida"}
                             /></div>
-                        <div>
+                        <div className="mt-[2rem] lg:mt-0">
                             <p className="text-center text-titulo font-bold"> - BACKEND - </p>
                             <br />
                             <Project

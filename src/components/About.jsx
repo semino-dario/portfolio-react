@@ -4,7 +4,7 @@ import DownloadCV from "./DownloadCV";
 
 export default function About() {
     return (
-        <div className="flex flex-col mt-[50px] md:mt[-50px]">
+        <div className="flex flex-col mt-[100px] md:mt[-50px]">
             <Divider ><TitleSection title='About me' /> </Divider>
             <section className="container flex flex-row justify-center gap-4 w-4/5 rounded font-light bg-azulClaro mt-8  p-5 pb-9 shadow-lg md:w-[650px]">
                 <p>
