@@ -6,7 +6,7 @@ export default function () {
     const [intervalId, setIntervalId] = useState(null);
     const containerRef = useRef(null);
 
-    const photos = ["https://arteludovica.com.ar/imagenes/imagenes-mdo/mdo-funciones/mdo-funciones-1.jpeg", "https://www.arteludovica.com.ar/imagenes/imagenes-mdo/mdo-funciones/mdo-funciones-12.jpeg", "https://www.arteludovica.com.ar/imagenes/imagenes-banquete/banquete-funciones/banquete-funciones-9.jpeg", "https://www.arteludovica.com.ar/imagenes/imagenes-banquete/banquete-funciones/banquete-funciones-2.jpeg", "https://www.arteludovica.com.ar/imagenes/imagenes-banquete/ensayo-banquete/ensayo-banquete-8.jpeg", "https://www.arteludovica.com.ar/imagenes/imagenes-banquete/ensayo-banquete/ensayo-banquete-11.jpeg", "https://www.arteludovica.com.ar/imagenes/imagenes-banquete/ensayo-banquete/ensayo-banquete-17.jpeg"]
+    const photos = ["http://arteludovica.com.ar/imagenes/imagenes-mdo/mdo-funciones/mdo-funciones-1.jpeg", "http://www.arteludovica.com.ar/imagenes/imagenes-mdo/mdo-funciones/mdo-funciones-12.jpeg", "http://www.arteludovica.com.ar/imagenes/imagenes-banquete/banquete-funciones/banquete-funciones-9.jpeg", "http://www.arteludovica.com.ar/imagenes/imagenes-banquete/banquete-funciones/banquete-funciones-2.jpeg", "http://www.arteludovica.com.ar/imagenes/imagenes-banquete/ensayo-banquete/ensayo-banquete-8.jpeg", "http://www.arteludovica.com.ar/imagenes/imagenes-banquete/ensayo-banquete/ensayo-banquete-11.jpeg", "http://www.arteludovica.com.ar/imagenes/imagenes-banquete/ensayo-banquete/ensayo-banquete-17.jpeg"]
 
     useEffect(() => {
         const id = setInterval(() => {
