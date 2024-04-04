@@ -1,4 +1,11 @@
 import { useEffect, useRef, useState } from 'react'
+import galeria1 from '../imagenes/arteludovica/galeria-1.jpeg'
+import galeria2 from '../imagenes/arteludovica/galeria-2.jpeg'
+import galeria3 from '../imagenes/arteludovica/galeria-3.jpeg'
+import galeria4 from '../imagenes/arteludovica/galeria-4.jpeg'
+import galeria5 from '../imagenes/arteludovica/galeria-5.jpeg'
+import galeria6 from '../imagenes/arteludovica/galeria-6.jpeg'
+import galeria7 from '../imagenes/arteludovica/galeria-7.jpeg'
 
 export default function () {
 
@@ -6,7 +13,7 @@ export default function () {
     const [intervalId, setIntervalId] = useState(null);
     const containerRef = useRef(null);
 
-    const photos = ["http://arteludovica.com.ar/imagenes/imagenes-mdo/mdo-funciones/mdo-funciones-1.jpeg", "http://www.arteludovica.com.ar/imagenes/imagenes-mdo/mdo-funciones/mdo-funciones-12.jpeg", "http://www.arteludovica.com.ar/imagenes/imagenes-banquete/banquete-funciones/banquete-funciones-9.jpeg", "http://www.arteludovica.com.ar/imagenes/imagenes-banquete/banquete-funciones/banquete-funciones-2.jpeg", "http://www.arteludovica.com.ar/imagenes/imagenes-banquete/ensayo-banquete/ensayo-banquete-8.jpeg", "http://www.arteludovica.com.ar/imagenes/imagenes-banquete/ensayo-banquete/ensayo-banquete-11.jpeg", "http://www.arteludovica.com.ar/imagenes/imagenes-banquete/ensayo-banquete/ensayo-banquete-17.jpeg"]
+    const photos = [galeria1, galeria2, galeria3, galeria4, galeria5, galeria6, galeria7]
 
     useEffect(() => {
         const id = setInterval(() => {
