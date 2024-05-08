@@ -29,11 +29,9 @@ export default function OrbisLibrisImage() {
                     <img className={`w-[100%] transition-opacity transform ${titleOrbis ? 'opacity-0 duration-1000' : 'opacity-100'}`} src={orbis1} alt="" />
                 </div>
             </div>
-            <br />
-            <br />
+
             <div className='mt-[70%] md:mt-[43%] flex flex-col justify-center align-center text-[#FFFFFF] gap-6'>
                 <p className=" text-azulClaro text-center font-extrabold text-4xl ">Do you like books?</p>
-                <br />
                 <div className='text-center font-serif text-xl transition-opacity transform px-4 flex flex-col justify-center items-center gap-2'>
                     <p >My personal website for book reviews.</p> <p> It was originally developed with Wordpress, and then I re-built it using Next.js with Typescript. <br /></p>
                 </div>
