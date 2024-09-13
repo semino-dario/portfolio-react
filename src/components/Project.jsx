@@ -53,8 +53,6 @@ export default function Project({ name, image, excerpt, techInfo, generalInfo, s
                     {techInfo}
                 </div>
             </Collapse>
-
-
         </div>
 
     );

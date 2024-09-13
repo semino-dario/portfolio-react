@@ -1,9 +1,9 @@
 import Project from "./Project";
-import compu2 from './imagenes/compu2.png'
-import celular from './imagenes/celular.png'
-import traducciones from './imagenes/traducciones.svg'
+import compu2 from './../assets/images/compu2.png'
+import celular from './../assets/images/celular.png'
+import traducciones from './../assets/images/traducciones.svg'
 import SwipeableTextMobileStepper from "./SwipeableTextMobileStepper";
-import typewriter from './imagenes/typewriter.jpg'
+import typewriter from './../assets/images/typewriter.jpg'
 import Typewriter from "./Typewriter";
 
 export default function Traducciones() {
@@ -31,7 +31,7 @@ export default function Traducciones() {
                     <img src={typewriter} className="w-[20rem] mb-[-2rem]z-0" alt="" />
                     <Project
                         imagenes={null}
-                        site={'https://traduccioneslierarias.netlify.app/'}
+                        site={'https://traduccionesliterarias.netlify.app/'}
                         repo={'https://github.com/semino-dario/traduccionesWeb'}
                     />
                 </div>

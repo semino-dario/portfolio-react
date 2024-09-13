@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
-import orbis1 from "./../imagenes/biblioteca-orbis-libris.jpg"
-import orbis2 from "./../imagenes/cartel-orbis-libris.jpg"
+import orbis1 from "./../../assets/images/biblioteca-orbis-libris.jpg"
+import orbis2 from "./../../assets/images/cartel-orbis-libris.jpg"
 import useInViewport from './../UseInViewport';
 
 export default function OrbisLibrisImage() {

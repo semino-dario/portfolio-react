@@ -1,9 +1,8 @@
 import Project from './../Project'
-import tituloLudovica from './../imagenes/tituloLudovica.svg'
-import mascaras from './../imagenes/arteludovica/mascaras.png'
+import tituloLudovica from '../../assets/images//tituloLudovica.svg'
+import mascaras from '../../assets/images/arteludovica/mascaras.png'
 import ArteludoviaGallery from './ArteludoviaGallery'
 import ArteludovicaSites from './ArteludovicaSites'
-
 
 export default function Arteludovica() {
 

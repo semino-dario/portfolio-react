@@ -1,11 +1,11 @@
 import { useEffect, useRef, useState } from 'react'
-import galeria1 from '../imagenes/arteludovica/galeria-1.jpeg'
-import galeria2 from '../imagenes/arteludovica/galeria-2.jpeg'
-import galeria3 from '../imagenes/arteludovica/galeria-3.jpeg'
-import galeria4 from '../imagenes/arteludovica/galeria-4.jpeg'
-import galeria5 from '../imagenes/arteludovica/galeria-5.jpeg'
-import galeria6 from '../imagenes/arteludovica/galeria-6.jpeg'
-import galeria7 from '../imagenes/arteludovica/galeria-7.jpeg'
+import galeria1 from './../../assets/images/arteludovica/galeria-1.jpeg'
+import galeria2 from './../../assets/images/arteludovica/galeria-2.jpeg'
+import galeria3 from './../../assets/images/arteludovica/galeria-3.jpeg'
+import galeria4 from './../../assets/images/arteludovica/galeria-4.jpeg'
+import galeria5 from './../../assets/images/arteludovica/galeria-5.jpeg'
+import galeria6 from './../../assets/images/arteludovica/galeria-6.jpeg'
+import galeria7 from './../../assets/images/arteludovica/galeria-7.jpeg'
 
 export default function () {
 

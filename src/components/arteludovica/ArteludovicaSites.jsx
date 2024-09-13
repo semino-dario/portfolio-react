@@ -1,11 +1,11 @@
-import portadaArteludovica from './../imagenes/arteludovica/portada-arteludovica.png'
-import portadaMdo from './../imagenes/arteludovica/portada-mdo.png'
-import portadaTejedoras from './../imagenes/arteludovica/portada-tejedoras.png'
-import portadaBanquete from './../imagenes/arteludovica/portada-banquete.png'
-import portadaCelArteludovica from './../imagenes/arteludovica/portada-cel-arteludovica.png'
-import portadaCelMdo from './../imagenes/arteludovica/portada-cel-mdo.png'
-import portadaCelTejedoras from './../imagenes/arteludovica/portada-cel-tejedoras.png'
-import portadaCelBanquete from './../imagenes/arteludovica/portada-cel-banquete.png'
+import portadaArteludovica from './../../assets/images/arteludovica/portada-arteludovica.png'
+import portadaMdo from './../../assets/images/arteludovica/portada-mdo.png'
+import portadaTejedoras from './../../assets/images/arteludovica/portada-tejedoras.png'
+import portadaBanquete from './../../assets/images/arteludovica/portada-banquete.png'
+import portadaCelArteludovica from './../../assets/images/arteludovica/portada-cel-arteludovica.png'
+import portadaCelMdo from './../../assets/images/arteludovica/portada-cel-mdo.png'
+import portadaCelTejedoras from './../../assets/images/arteludovica/portada-cel-tejedoras.png'
+import portadaCelBanquete from './../../assets/images/arteludovica/portada-cel-banquete.png'
 
 export default function ArteludovicaSites() {
 

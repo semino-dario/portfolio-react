@@ -1,13 +1,13 @@
 import OutlinedCard from "./Card";
-import udemy from './imagenes/udemy.svg'
-import it from './imagenes/it.png'
-import p5 from './imagenes/p5.png'
-import credencialP5 from './imagenes/credenciales/credencial-p5.webp'
-import credencialUdemy from './imagenes/credenciales/credencial-udemy.webp'
-import credencialIt from './imagenes/credenciales/credencial-it.webp'
+import udemy from '../assets/images/udemy.svg'
+import it from '../assets/images/it.png'
+import p5 from '../assets/images/p5.png'
+import credencialP5 from '../assets/images/credenciales/credencial-p5.webp'
+import credencialUdemy from '../assets/images/credenciales/credencial-udemy.webp'
+import credencialIt from '../assets/images/credenciales/credencial-it.webp'
 import TitleSection from "./TitleSection";
 import { Divider } from "@mui/material";
-import formacion from './imagenes/formacion.svg'
+import formacion from '../assets/images/formacion.svg'
 
 
 export default function Formacion() {

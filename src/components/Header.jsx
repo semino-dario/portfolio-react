@@ -1,4 +1,4 @@
-import RetratoDario from "./imagenes/dario.webp";
+import RetratoDario from "../assets/images/dario.webp";
 import SocialIcons from "./SocialIcons";
 
 const Header = () => {

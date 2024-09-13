@@ -1,11 +1,11 @@
-import jsIcons from './imagenes/techlogos/3.svg'
-import CSSIcons from './imagenes/techlogos/4.svg'
-import DBIcons from './imagenes/techlogos/5.svg'
-import HTMLIcons from './imagenes/techlogos/html.svg'
-import otrosLogos from './imagenes/techlogos/6.svg'
-import otrosLogos2 from './imagenes/techlogos/7.svg'
+import jsIcons from '../assets/images/techlogos/3.svg'
+import CSSIcons from '../assets/images/techlogos/4.svg'
+import DBIcons from '../assets/images/techlogos/5.svg'
+import HTMLIcons from '../assets/images/techlogos/html.svg'
+import otrosLogos from '../assets/images/techlogos/6.svg'
+import otrosLogos2 from '../assets/images/techlogos/7.svg'
 import TitleSection from './TitleSection';
-import designIcons from './imagenes/techlogos/8.svg'
+import designIcons from '../assets/images/techlogos/8.svg'
 
 export default function techInfo() {
 

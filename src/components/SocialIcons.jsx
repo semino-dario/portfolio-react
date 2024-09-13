@@ -1,6 +1,6 @@
-import Linkedin from "./imagenes/linkedin.svg"
-import Mail from "./imagenes/mail.svg"
-import Github from "./imagenes/github.svg"
+import Linkedin from "../assets/images/linkedin.svg"
+import Mail from "../assets/images/mail.svg"
+import Github from "../assets/images/github.svg"
 
 export default function SocialIcons() {
 
