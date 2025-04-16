@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
-import orbis1 from "./../../assets/images/biblioteca-orbis-libris.jpg"
-import orbis2 from "./../../assets/images/cartel-orbis-libris.jpg"
+// import orbis1 from "./../../assets/images/biblioteca-orbis-libris.jpg"
+// import orbis2 from "./../../assets/images/cartel-orbis-libris.jpg"
 import useInViewport from './../UseInViewport';
 
 export default function OrbisLibrisImage() {
@@ -21,14 +21,14 @@ export default function OrbisLibrisImage() {
 
     return (
         <div className=" bg-[#000000] flex flex-col justify-center align-center gap-6 py-[4rem]">
-            <div ref={containerRef} className=" relative w-[90vw] md:w-[50vw]">
+            {/* <div ref={containerRef} className=" relative w-[90vw] md:w-[50vw]">
                 <div className="absolute ">
                     <img className={'w-[100%]'} src={orbis2} alt="" />
                 </div>
                 <div className="absolute">
                     <img className={`w-[100%] transition-opacity transform ${titleOrbis ? 'opacity-0 duration-1000' : 'opacity-100'}`} src={orbis1} alt="" />
                 </div>
-            </div>
+            </div> */}
 
             <div className='mt-[70%] md:mt-[43%] flex flex-col justify-center align-center text-[#FFFFFF] gap-6'>
                 <p className=" text-azulClaro text-center font-extrabold text-4xl ">Do you like books?</p>

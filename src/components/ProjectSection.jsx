@@ -24,7 +24,7 @@ export default function ProjectSection() {
             <br /> <br /> <br /> <br />
             <Traducciones />
             <br /> <br />
-            <OrbisLibrisImage />
+            {/* <OrbisLibrisImage /> */}
         </div>
     )
 }

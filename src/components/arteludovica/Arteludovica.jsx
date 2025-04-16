@@ -27,7 +27,7 @@ export default function Arteludovica() {
                         imagenes={null}
                         generalInfo={'On this site, all the material from the Arteludovica Theater Company is available. There are galleries of images, videos and PDF downloads. There are also three sections or subsites corresponding to each of the theater productions premiered by the company. In each case, the design of the section varies to adapt to the aesthetics of the respective play.'}
                         techInfo={'This is the second site I developed with HTML, CSS, and Javascript on the frontend, along with a simple backend developed with PHP and a SQL database. The project involved a focus on design, leading me to go deeper into CSS, Figma, and the creation of custom icons using SVG.'}
-                        site={'http://arteludovica.com.ar/'}
+                        site={'http://www.arteludovica.com.ar/'}
                         repo={'https://github.com/semino-dario/arteludovica'}
                     />
                     <br />
