@@ -43,7 +43,7 @@ export default function Gerontovida() {
                             />
                         </div>
                         <div className="mt-[2rem] md:mt-0">
-                            <p className="text-center text-titulo font-bold"> - LOGIN & DESKTOP - </p>
+                            <p className="text-center text-titulo font-bold"> - LOGIN & DASHBOARD - </p>
                             <br />
                             <Project
                                 imagenes={imagenes}
