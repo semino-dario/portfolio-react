@@ -7,6 +7,7 @@ import TitleSection from "./TitleSection";
 import proyectos from "../assets/images/proyectos2.svg";
 import OrbisLibrisImage from "./orbis-libris/OrbisLibrisImage";
 import OrbisLibris from "./orbis-libris/OrbisLibris";
+import LaLibre from "./projects/LaLibre";
 
 export default function ProjectSection() {
   return (
@@ -17,6 +18,8 @@ export default function ProjectSection() {
           <TitleSection title={"Projects"} fondo={"#FCFCFC"} />{" "}
         </div>
       </Divider>
+      <LaLibre />
+      <br /> <br />
       <Gerontovida />
       <br /> <br />
       <Arteludovica />

@@ -41,23 +41,30 @@ export default function Project({
           <p>{excerpt}</p>
         </div>
       )}
-      <div
-        className="rounded-xl h-[50px] w-full  bg-azulOscuro flex items-center justify-around mt-[15px] "
-        style={{ color: "gray" }}
-      >
-        <a href={site} className="hover:text-titulo" target="_blank">
-          {site ? (!docs ? "visit site" : "visit docs") : ""}
-        </a>{" "}
-        <a
-          href={repo}
-          target="_blank"
-          className="flex flex-row gap-3 items-center justify-center hover:text-titulo"
+      {repo === "" && site === "" ? (
+        <></>
+      ) : (
+        <div
+          className="rounded-xl h-[50px] w-full  bg-azulOscuro flex items-center justify-around mt-[15px] "
+          style={{ color: "gray" }}
         >
-          {" "}
-          visit repo{" "}
-        </a>
-      </div>
-
+          <a href={site} className="hover:text-titulo" target="_blank">
+            {site ? (!docs ? "visit site" : "visit docs") : ""}
+          </a>{" "}
+          {repo === "" ? (
+            <></>
+          ) : (
+            <a
+              href={repo}
+              target="_blank"
+              className="flex flex-row gap-3 items-center justify-center hover:text-titulo"
+            >
+              {" "}
+              visit repo{" "}
+            </a>
+          )}
+        </div>
+      )}
       <div
         onClick={handleCLick}
         className={`bg-azulClaro rounded-xl h-[50px] w-full flex items-center justify-around mt-[15px] cursor-pointer ${

@@ -27,7 +27,7 @@ export default function OrbisLibris() {
             "First website ever made by me, in 2021, for pubilsing books reviews and articles about literature and philosophy."
           }
           techInfo={
-            "First version of the website was made with Wordpress and Elementor. Then I made a complete remake with Next.js and SASS. This was the fist time I've used Next.js with Page Router."
+            "First version of the website was made with Wordpress and Elementor. Then I made a complete remake with Next.js and SASS. This was the fist time I've used Next.js with Page Router and Typescript."
           }
         />
       </div>
