@@ -1,6 +1,15 @@
 export const cursos = [
   {
     escuela: "Scrimba",
+    curso: "Build Reusable React Components",
+    año: "2025",
+    horas: "3.6 hs",
+    imagen: "/images/logos/scrimba.jpg",
+    credencial: "/images/credenciales/credencial-reusable.png",
+    id: 7,
+  },
+  {
+    escuela: "Scrimba",
     curso: "Javascript Deep Dive",
     año: "2024",
     horas: "14.1 hs",
